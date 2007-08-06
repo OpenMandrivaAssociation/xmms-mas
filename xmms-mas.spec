@@ -16,6 +16,7 @@ BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libmas-devel
 BuildRequires: libxmms-devel
 Requires: xmms
+ExcludeArch: x86_64
 
 %description
 This is an output plugin for XMMS. If you use it, XMMS will send its
