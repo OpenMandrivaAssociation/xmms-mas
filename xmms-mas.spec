@@ -1,6 +1,6 @@
 %define name xmms-mas
 %define version 1.2.7
-%define release %mkrel 6
+%define release %mkrel 7
 %define fname %name-%version-2
 
 Summary: MAS output plugin for xmms 
