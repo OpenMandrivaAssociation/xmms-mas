@@ -1,6 +1,6 @@
 %define name xmms-mas
 %define version 1.2.7
-%define release %mkrel 7
+%define release %mkrel 8
 %define fname %name-%version-2
 
 Summary: MAS output plugin for xmms 
@@ -9,7 +9,7 @@ Version: %{version}
 Release: %{release}
 Source0: %{fname}.tar.bz2
 Patch: xmms-mas-1.2.7-2-includes.patch
-License: GPL
+License: GPLv2+
 Group: Sound
 URL: http://www.mediaapplicationserver.net/indexframes.html
 BuildRoot: %{_tmppath}/%{name}-buildroot
