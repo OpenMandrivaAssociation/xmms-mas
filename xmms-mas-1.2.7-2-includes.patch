@@ -1,0 +1,27 @@
+--- xmms-mas-1.2.7-2/mas_client.c~	2003-07-08 19:03:37.000000000 +0200
++++ xmms-mas-1.2.7-2/mas_client.c	2003-11-20 13:28:31.000000000 +0100
+@@ -45,18 +45,17 @@
+  * terms of the GPL.
+  */
+ 
+-#include "config.h"
+-
+-#include "xmms/i18n.h"
++#include <libintl.h>
++#define _(String) gettext (String)
+ #include <gtk/gtk.h>
+ #include <stdio.h>
+ #include <string.h>
+ 
+ #include "xmms/plugin.h"
+-#include "libxmms/xmmsctrl.h"
+-#include "libxmms/dirbrowser.h"
+-#include "libxmms/configfile.h"
+-#include "libxmms/util.h"
++#include "xmms/xmmsctrl.h"
++#include "xmms/dirbrowser.h"
++#include "xmms/configfile.h"
++#include "xmms/util.h"
+ 
+ 
+ 
