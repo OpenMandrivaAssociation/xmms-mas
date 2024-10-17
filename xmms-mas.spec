@@ -11,7 +11,7 @@ Source0: %{fname}.tar.bz2
 Patch: xmms-mas-1.2.7-2-includes.patch
 License: GPLv2+
 Group: Sound
-URL: http://www.mediaapplicationserver.net/indexframes.html
+URL: https://www.mediaapplicationserver.net/indexframes.html
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libmas-devel
 BuildRequires: libxmms-devel
